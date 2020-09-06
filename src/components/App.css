@@ -1,0 +1,27 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.head
+{
+    background: linear-gradient(to right, #1d4350, #a43931);
+    height:100px;
+    color:#F9BB08;
+    font-weight:bolder;
+}
+body
+{
+    background: linear-gradient(to right, #1d4350, #a43931);
+}
+.photo
+{
+    height:80%;
+}
+.text
+{
+    color:#F9BB08;
+}
+.move
+{
+    margin-top: 10px;
+}
