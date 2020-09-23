@@ -8,7 +8,6 @@ export default class Game extends Component {
         this.state = {
             alldata: [],
             name: '',
-
             randomName: '',
             randomHouse: '',
             ancestory: '',
