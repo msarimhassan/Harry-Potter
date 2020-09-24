@@ -88,49 +88,45 @@ export default class Game extends Component {
                         </button>
                     </div>
                 </div>
-                <button type='button' 
-                    className=" btn btn-secondary btn-lg btn-block"
-                onClick={this.handleClick}>
+                <button
+                    type='button'
+                    className=' btn btn-secondary btn-lg btn-block'
+                    onClick={this.handleClick}
+                >
                     Generate
                 </button>
 
-                
-                <div className="text-center move">
-                <img src={this.state.image} className="photo img-fluid img-thumbnail" alt=''/>
+                <div className='text-center move'>
+                    <img src={this.state.image} className='photo img-fluid img-thumbnail' alt='' />
                 </div>
-                <h1 className="text-center text"> Hey Muggle!<span>🚀</span>
-                   </h1>
+                <h1 className='text-center text'>
+                    {' '}
+                    Hey Muggle!
+                    <span aria-labelledby = "img" role='img'>
+                        🚀
+                    </span>
+                </h1>
 
-                <table class="table table-bordered table-dark text-center">
-           
-               <tbody>
+                <table class='table table-bordered table-dark text-center'>
+                    <tbody>
                         <tr>
-                    
-                    <td>Your Name :</td>
+                            <td>Your Name :</td>
                             <td>{this.state.name}</td>
-                            
-            
-                </tr>
-                <tr>
-                    
-                    <td>Your Hogwards Name : </td>
-                   <td>{this.state.randomName}</td>
-            
-                </tr>
-                <tr>
-                  
-                    
-                            <td>Your House  : </td>
-                            <td>{this.state.randomHouse}</td>
-                </tr>
+                        </tr>
                         <tr>
-                            
-
-                            <td>Your Ancestory  : </td>
+                            <td>Your Hogwards Name : </td>
+                            <td>{this.state.randomName}</td>
+                        </tr>
+                        <tr>
+                            <td>Your House : </td>
+                            <td>{this.state.randomHouse}</td>
+                        </tr>
+                        <tr>
+                            <td>Your Ancestory : </td>
                             <td>{this.state.ancestory}</td>
                         </tr>
-            </tbody>
-           </table >
+                    </tbody>
+                </table>
             </div>
         );
     }
