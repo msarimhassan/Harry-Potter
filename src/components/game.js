@@ -19,7 +19,7 @@ export default class Game extends Component {
         this.reset = this.reset.bind(this);
     }
     async componentDidMount() {
-        await axios.get('http://hp-api.herokuapp.com/api/characters').then((response) => {
+        await axios.get('https://hp-api.herokuapp.com/api/characters').then((response) => {
             console.log(response.data);
             this.setState({
                 alldata: response.data,
