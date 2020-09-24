@@ -26,6 +26,7 @@ export default class Game extends Component {
             });
         });
     }
+    
     handleClick() {
         const randomno = Math.floor(Math.random() * 25);
         const randomData = this.state.alldata[randomno];
