@@ -8,6 +8,8 @@ import './components/App.css';
 function App() {
     return (
         <div>
+
+            <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/> 
           <Header/>
             <Game/>
         </div>
