@@ -10,11 +10,11 @@
  ## 🎩 Screenshot
  <div align="center">
  <img src = "src\components\app.jpg" alt="Application Interface"/>
- <img src = "src\components\working.jpg" alt = "Application />
+ <img src = "src\components\working.jpg" height="200px" alt = "Application" />
  </div>
  
 
-<h1> 👉LIVE LINK</h1>
+## 👉LIVE LINK
 https://sarim-dev-harrypotterapp.netlify.app/
 
 ## 🚀 FEATURES
