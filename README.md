@@ -8,9 +8,10 @@
 >A web application that shows you some random characters of Harry Potter.
  
  ## 🎩 Screenshot
+ <div align="center">
  <img src = "src\components\app.jpg" alt="Application Interface"/>
- <br>
  <img src = "src\components\working.jpg" alt = "Application />
+ </div>
  
 
 <h1> 👉LIVE LINK</h1>
