@@ -41,7 +41,7 @@ const Game = () => {
         <tbody>
           {location.state.data.name ? (
             <tr>
-              <td>Your Hogward's Name : </td>
+              <td>Your Charactor's Name : </td>
               <td>{location.state.data.name}</td>
             </tr>
           ) : null}
@@ -72,7 +72,7 @@ const Game = () => {
 
           {location.state.data.actor ? (
             <tr>
-              <td>Your Actor's : </td>
+              <td>Your Actor's name : </td>
               <td>{location.state.data.actor}</td>
             </tr>
           ) : null}
